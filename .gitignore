@@ -43,12 +43,12 @@ build/Release
 .parcel-cache
 .temp/
 
-# Media (nếu không muốn track)
-assets/songs/
-assets/covers/
-*.mp3
-*.jpg
-*.png
+# # Media (nếu không muốn track)
+# assets/songs/
+# assets/covers/
+# *.mp3
+# *.jpg
+# *.png
 
 # VSCode
 .vscode/
