@@ -1,45 +1,56 @@
-# 🎵 Retro Music Player 🎶  
-> A cute, pixel-styled music player built with ElectronJS, HTML, CSS & JavaScript
+# Retro Music Player
+
+A simple desktop music player built with ElectronJS, HTML, CSS, and JavaScript.  
+Pixel-style, lightweight, and made for fun.
 
 ---
 
-## 🚀 Features
+## Features
 
-✅ Beautiful retro UI with pixel background  
-✅ Play, Pause, Next, Previous controls  
-✅ Animated progress bar with current time / duration  
-✅ Custom playlist with cover images & audio  
-✅ Desktop app (Windows `.exe`) built using Electron  
-✅ Lightweight, fast, and offline-ready  
+- Retro-inspired UI (pixel background, round buttons)
+- Custom playlist with cover image and mp3
+- Audio player with play / pause / next / prev
+- Progress bar with current time and duration
+- Works offline after build
+- Exportable as `.exe` using Electron
 
 ---
 
 ## 🖼️ Preview
 
-<img src="assets/covers/jennie-cover.jpg" width="300" alt="UI preview">
+<img src="assets/covers/poster.png" width="300" alt="UI preview">
 
 ---
 
-## 🛠️ Technologies
-
-- ⚡ **ElectronJS** – build desktop app with web tech  
-- 🎨 **HTML/CSS/JS** – UI + Player logic  
-- 🖼️ Custom assets: MP3, cover, pixel icons  
-- 📦 Packaged via `electron-packager`  
-
----
-
-## 🧪 How to Run Locally
+## How to use
 
 ```bash
-# Clone this repo
 git clone https://github.com/for-everyoung12/music-player-app.git
-
-# Move into folder
 cd music-player-app
-
-# Install dependencies
 npm install
-
-# Run app
 npm start
+```
+
+---
+
+## Build to .exe
+
+```bash
+npm run build
+```
+
+> Make sure `electron-packager` is installed (already in `devDependencies`)
+
+---
+
+## Notes
+
+- Song files and images are in `assets/songs/` and `assets/covers/`
+- You can edit the playlist in `renderer.js` by modifying the `songs[]` array
+
+---
+
+## Author
+
+Created by [@for-everyoung12](https://github.com/for-everyoung12)  
+Just a dude who likes music, pixel art, and writing clean UI without bloat.
